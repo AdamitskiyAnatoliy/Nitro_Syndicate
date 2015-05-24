@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF19FF71B05632A00BE5F5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF19FF61B05632A00BE5F5A /* main.m */; };
+		1CF19FFA1B05632A00BE5F5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF19FF91B05632A00BE5F5A /* AppDelegate.m */; };
+		1CF19FFD1B05632A00BE5F5A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF19FFC1B05632A00BE5F5A /* GameScene.m */; };
+		1CF19FFF1B05632A00BE5F5A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1CF19FFE1B05632A00BE5F5A /* GameScene.sks */; };
+		1CF1A0021B05632A00BE5F5A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1A0011B05632A00BE5F5A /* GameViewController.m */; };
+		1CF1A0051B05632A00BE5F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A0031B05632A00BE5F5A /* Main.storyboard */; };
+		1CF1A0071B05632A00BE5F5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A0061B05632A00BE5F5A /* Images.xcassets */; };
+		1CF1A00A1B05632A00BE5F5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A0081B05632A00BE5F5A /* LaunchScreen.xib */; };
+		1CF1A0161B05632A00BE5F5A /* NitroSyndicateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1A0151B05632A00BE5F5A /* NitroSyndicateTests.m */; };
+		1CF1A0241B0587F400BE5F5A /* SKParralaxScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1A0231B0587F400BE5F5A /* SKParralaxScrolling.m */; };
+		1CF1A0261B0643D600BE5F5A /* explosion.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A0251B0643D600BE5F5A /* explosion.atlas */; };
+		1CF1A02A1B07A70C00BE5F5A /* tires_squealing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A0291B07A70C00BE5F5A /* tires_squealing.mp3 */; };
+		1CF1A02C1B07A84100BE5F5A /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A02B1B07A84100BE5F5A /* explosion.mp3 */; };
+		1CF1A02E1B07A90500BE5F5A /* powerup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A02D1B07A90500BE5F5A /* powerup.mp3 */; };
+		1CF1A0301B07AA9600BE5F5A /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A02F1B07AA9600BE5F5A /* backgroundMusic.mp3 */; };
+		1CF1A0321B07AC4500BE5F5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF1A0311B07AC4500BE5F5A /* AVFoundation.framework */; };
+		1CF1A0341B07BABE00BE5F5A /* buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1A0331B07BABE00BE5F5A /* buzzer.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CF1A0101B05632A00BE5F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF19FE91B05632500BE5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF19FF01B05632500BE5F5A;
+			remoteInfo = NitroSyndicate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF19FF11B05632500BE5F5A /* NitroSyndicate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NitroSyndicate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF19FF51B05632A00BE5F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF19FF61B05632A00BE5F5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CF19FF81B05632A00BE5F5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CF19FF91B05632A00BE5F5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CF19FFB1B05632A00BE5F5A /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		1CF19FFC1B05632A00BE5F5A /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		1CF19FFE1B05632A00BE5F5A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1CF1A0001B05632A00BE5F5A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1CF1A0011B05632A00BE5F5A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1CF1A0041B05632A00BE5F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CF1A0061B05632A00BE5F5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CF1A0091B05632A00BE5F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CF1A00F1B05632A00BE5F5A /* NitroSyndicateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroSyndicateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF1A0141B05632A00BE5F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF1A0151B05632A00BE5F5A /* NitroSyndicateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NitroSyndicateTests.m; sourceTree = "<group>"; };
+		1CF1A0221B0587F400BE5F5A /* SKParralaxScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKParralaxScrolling.h; sourceTree = "<group>"; };
+		1CF1A0231B0587F400BE5F5A /* SKParralaxScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKParralaxScrolling.m; sourceTree = "<group>"; };
+		1CF1A0251B0643D600BE5F5A /* explosion.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = explosion.atlas; sourceTree = "<group>"; };
+		1CF1A0291B07A70C00BE5F5A /* tires_squealing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tires_squealing.mp3; sourceTree = "<group>"; };
+		1CF1A02B1B07A84100BE5F5A /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		1CF1A02D1B07A90500BE5F5A /* powerup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = powerup.mp3; sourceTree = "<group>"; };
+		1CF1A02F1B07AA9600BE5F5A /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		1CF1A0311B07AC4500BE5F5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1CF1A0331B07BABE00BE5F5A /* buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF19FEE1B05632500BE5F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1A0321B07AC4500BE5F5A /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1A00C1B05632A00BE5F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF19FE81B05632500BE5F5A = {
+			isa = PBXGroup;
+			children = (
+				1CF1A0311B07AC4500BE5F5A /* AVFoundation.framework */,
+				1CF19FF31B05632500BE5F5A /* NitroSyndicate */,
+				1CF1A0121B05632A00BE5F5A /* NitroSyndicateTests */,
+				1CF19FF21B05632500BE5F5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF19FF21B05632500BE5F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF19FF11B05632500BE5F5A /* NitroSyndicate.app */,
+				1CF1A00F1B05632A00BE5F5A /* NitroSyndicateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CF19FF31B05632500BE5F5A /* NitroSyndicate */ = {
+			isa = PBXGroup;
+			children = (
+				1CF19FF81B05632A00BE5F5A /* AppDelegate.h */,
+				1CF19FF91B05632A00BE5F5A /* AppDelegate.m */,
+				1CF1A0221B0587F400BE5F5A /* SKParralaxScrolling.h */,
+				1CF1A0231B0587F400BE5F5A /* SKParralaxScrolling.m */,
+				1CF19FFB1B05632A00BE5F5A /* GameScene.h */,
+				1CF19FFC1B05632A00BE5F5A /* GameScene.m */,
+				1CF19FFE1B05632A00BE5F5A /* GameScene.sks */,
+				1CF1A0001B05632A00BE5F5A /* GameViewController.h */,
+				1CF1A0011B05632A00BE5F5A /* GameViewController.m */,
+				1CF1A0061B05632A00BE5F5A /* Images.xcassets */,
+				1CF1A0E41B0D3AF400BE5F5A /* Animations */,
+				1CF1A0E31B0D3AD700BE5F5A /* Sounds */,
+				1CF19FF41B05632A00BE5F5A /* Supporting Files */,
+			);
+			path = NitroSyndicate;
+			sourceTree = "<group>";
+		};
+		1CF19FF41B05632A00BE5F5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1A0031B05632A00BE5F5A /* Main.storyboard */,
+				1CF1A0081B05632A00BE5F5A /* LaunchScreen.xib */,
+				1CF19FF51B05632A00BE5F5A /* Info.plist */,
+				1CF19FF61B05632A00BE5F5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF1A0121B05632A00BE5F5A /* NitroSyndicateTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1A0151B05632A00BE5F5A /* NitroSyndicateTests.m */,
+				1CF1A0131B05632A00BE5F5A /* Supporting Files */,
+			);
+			path = NitroSyndicateTests;
+			sourceTree = "<group>";
+		};
+		1CF1A0131B05632A00BE5F5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1A0141B05632A00BE5F5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF1A0E31B0D3AD700BE5F5A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1A0291B07A70C00BE5F5A /* tires_squealing.mp3 */,
+				1CF1A02B1B07A84100BE5F5A /* explosion.mp3 */,
+				1CF1A02D1B07A90500BE5F5A /* powerup.mp3 */,
+				1CF1A02F1B07AA9600BE5F5A /* backgroundMusic.mp3 */,
+				1CF1A0331B07BABE00BE5F5A /* buzzer.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		1CF1A0E41B0D3AF400BE5F5A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1A0251B0643D600BE5F5A /* explosion.atlas */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CF19FF01B05632500BE5F5A /* NitroSyndicate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF1A0191B05632A00BE5F5A /* Build configuration list for PBXNativeTarget "NitroSyndicate" */;
+			buildPhases = (
+				1CF19FED1B05632500BE5F5A /* Sources */,
+				1CF19FEE1B05632500BE5F5A /* Frameworks */,
+				1CF19FEF1B05632500BE5F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NitroSyndicate;
+			productName = NitroSyndicate;
+			productReference = 1CF19FF11B05632500BE5F5A /* NitroSyndicate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CF1A00E1B05632A00BE5F5A /* NitroSyndicateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF1A01C1B05632A00BE5F5A /* Build configuration list for PBXNativeTarget "NitroSyndicateTests" */;
+			buildPhases = (
+				1CF1A00B1B05632A00BE5F5A /* Sources */,
+				1CF1A00C1B05632A00BE5F5A /* Frameworks */,
+				1CF1A00D1B05632A00BE5F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF1A0111B05632A00BE5F5A /* PBXTargetDependency */,
+			);
+			name = NitroSyndicateTests;
+			productName = NitroSyndicateTests;
+			productReference = 1CF1A00F1B05632A00BE5F5A /* NitroSyndicateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CF19FE91B05632500BE5F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Anatoliy Adamitskiy";
+				TargetAttributes = {
+					1CF19FF01B05632500BE5F5A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1CF1A00E1B05632A00BE5F5A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1CF19FF01B05632500BE5F5A;
+					};
+				};
+			};
+			buildConfigurationList = 1CF19FEC1B05632500BE5F5A /* Build configuration list for PBXProject "NitroSyndicate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CF19FE81B05632500BE5F5A;
+			productRefGroup = 1CF19FF21B05632500BE5F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF19FF01B05632500BE5F5A /* NitroSyndicate */,
+				1CF1A00E1B05632A00BE5F5A /* NitroSyndicateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF19FEF1B05632500BE5F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1A02A1B07A70C00BE5F5A /* tires_squealing.mp3 in Resources */,
+				1CF1A00A1B05632A00BE5F5A /* LaunchScreen.xib in Resources */,
+				1CF1A02C1B07A84100BE5F5A /* explosion.mp3 in Resources */,
+				1CF1A0071B05632A00BE5F5A /* Images.xcassets in Resources */,
+				1CF1A02E1B07A90500BE5F5A /* powerup.mp3 in Resources */,
+				1CF19FFF1B05632A00BE5F5A /* GameScene.sks in Resources */,
+				1CF1A0261B0643D600BE5F5A /* explosion.atlas in Resources */,
+				1CF1A0341B07BABE00BE5F5A /* buzzer.mp3 in Resources */,
+				1CF1A0051B05632A00BE5F5A /* Main.storyboard in Resources */,
+				1CF1A0301B07AA9600BE5F5A /* backgroundMusic.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1A00D1B05632A00BE5F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF19FED1B05632500BE5F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1A0021B05632A00BE5F5A /* GameViewController.m in Sources */,
+				1CF19FFA1B05632A00BE5F5A /* AppDelegate.m in Sources */,
+				1CF1A0241B0587F400BE5F5A /* SKParralaxScrolling.m in Sources */,
+				1CF19FFD1B05632A00BE5F5A /* GameScene.m in Sources */,
+				1CF19FF71B05632A00BE5F5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1A00B1B05632A00BE5F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1A0161B05632A00BE5F5A /* NitroSyndicateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF1A0111B05632A00BE5F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF19FF01B05632500BE5F5A /* NitroSyndicate */;
+			targetProxy = 1CF1A0101B05632A00BE5F5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CF1A0031B05632A00BE5F5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF1A0041B05632A00BE5F5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CF1A0081B05632A00BE5F5A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF1A0091B05632A00BE5F5A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CF1A0171B05632A00BE5F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CF1A0181B05632A00BE5F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CF1A01A1B05632A00BE5F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NitroSyndicate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1CF1A01B1B05632A00BE5F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NitroSyndicate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1CF1A01D1B05632A00BE5F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NitroSyndicateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NitroSyndicate.app/NitroSyndicate";
+			};
+			name = Debug;
+		};
+		1CF1A01E1B05632A00BE5F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NitroSyndicateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NitroSyndicate.app/NitroSyndicate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF19FEC1B05632500BE5F5A /* Build configuration list for PBXProject "NitroSyndicate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF1A0171B05632A00BE5F5A /* Debug */,
+				1CF1A0181B05632A00BE5F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF1A0191B05632A00BE5F5A /* Build configuration list for PBXNativeTarget "NitroSyndicate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF1A01A1B05632A00BE5F5A /* Debug */,
+				1CF1A01B1B05632A00BE5F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CF1A01C1B05632A00BE5F5A /* Build configuration list for PBXNativeTarget "NitroSyndicateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF1A01D1B05632A00BE5F5A /* Debug */,
+				1CF1A01E1B05632A00BE5F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CF19FE91B05632500BE5F5A /* Project object */;
+}
